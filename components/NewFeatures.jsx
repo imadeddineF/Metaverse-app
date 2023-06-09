@@ -1,7 +1,3 @@
-const NewFeatures = () => (
-  <div>
-    New Features
-  </div>
-);
+const NewFeatures = () => <div>New Featuress</div>;
 
 export default NewFeatures;
