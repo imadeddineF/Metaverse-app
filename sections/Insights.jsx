@@ -27,7 +27,6 @@ const Insights = () => (
         ))}
       </div>
     </motion.div>
-    Insights section
   </section>
 );
 
