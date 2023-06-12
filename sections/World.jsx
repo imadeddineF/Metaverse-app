@@ -16,7 +16,7 @@ const World = () => (
     >
       <TypingText title="| People on the world" textStyles="text-center" />
       <TitleText
-        title={<>Track frinds around you and invite them to play together in the same world</>}
+        title="Track frinds around you and invite them to play together in the same world"
         textStyles="text-center"
       />
       <motion.div
