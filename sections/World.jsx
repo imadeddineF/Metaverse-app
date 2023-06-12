@@ -23,15 +23,81 @@ const World = () => (
         variants={fadeIn('up', 'tween', 0.3, 1)}
         className="relative mt-[68px] flex w-full h-[550px]"
       >
-        <img src="/map.png" alt="map" className="object-cover w-full h-full" />
-        <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        {/* the big map */}
+        <img
+          src="/map.png"
+          alt="map"
+          className="object-contain w-full h-full"
+        />
+
+        <div className="absolute lg:bottom-24 lg:right-40 md:bottom-40 md:right-14 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680] md:block hidden">
           <img src="people-01.png" alt="people" className="w-full h-full" />
         </div>
-        <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="absolute lg:top-10 lg:left-40 md:top-36 md:left-16 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680] md:block hidden">
           <img src="people-02.png" alt="people" className="w-full h-full" />
         </div>
-        <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="absolute lg:top-1/2 lg:left-[45%] md:top-[45%] md:left-[43%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680] md:block hidden">
           <img src="people-03.png" alt="people" className="w-full h-full" />
+        </div>
+        <div className="absolute top-10 left-[62%] w-[200px] h-[160px] p-[9px] rounded-[25px] bg-[#5d6680] lg:block hidden">
+          <img
+            src="mapCard1.png"
+            alt="people"
+            className="relative w-full h-full"
+          />
+          <div className="absolute top-[85px] px-3">
+            <div className="flex items-center justify-center gap-2">
+              <div className="flex">
+                <img
+                  src="people-01.png"
+                  alt="people"
+                  className="w-[24px] h-[24px] z-20"
+                />
+                <img
+                  src="people-02.png"
+                  alt="people"
+                  className="w-[24px] h-[24px] -ml-3 z-10"
+                />
+                <img
+                  src="people-03.png"
+                  alt="people"
+                  className="w-[24px] h-[24px] -ml-3"
+                />
+              </div>
+              <p className="text-white text-[12px]">+ 264 has joined</p>
+            </div>
+            <h4 className="text-white mt-[8px] font-bold">Hawkins Labs</h4>
+          </div>
+        </div>
+        <div className="absolute top-[40%] left-[20%] w-[200px] h-[160px] p-[9px] rounded-[25px] bg-[#5d6680] lg:block hidden">
+          <img
+            src="mapCard2.png"
+            alt="people"
+            className="relative w-full h-full"
+          />
+          <div className="absolute top-[85px] px-3">
+            <div className="flex items-center justify-center gap-2">
+              <div className="flex">
+                <img
+                  src="people-01.png"
+                  alt="people"
+                  className="w-[24px] h-[24px] z-20"
+                />
+                <img
+                  src="people-02.png"
+                  alt="people"
+                  className="w-[24px] h-[24px] -ml-3 z-10"
+                />
+                <img
+                  src="people-03.png"
+                  alt="people"
+                  className="w-[24px] h-[24px] -ml-3"
+                />
+              </div>
+              <p className="text-white text-[12px]">+ 264 has joined</p>
+            </div>
+            <h4 className="text-white mt-[8px] font-bold">The Upside Down</h4>
+          </div>
         </div>
       </motion.div>
     </motion.div>
