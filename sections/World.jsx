@@ -39,7 +39,7 @@ const World = () => (
         <div className="absolute lg:top-1/2 lg:left-[45%] md:top-[45%] md:left-[43%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680] md:block hidden">
           <img src="people-03.png" alt="people" className="w-full h-full" />
         </div>
-        <div className="absolute top-10 left-[62%] w-[200px] h-[160px] p-[9px] rounded-[25px] bg-[#5d6680] lg:block hidden">
+        <div className="absolute top-10 left-[62%] w-[200px] h-[160px] p-[9px] rounded-[25px] bg-[#5d6680]">
           <img
             src="mapCard1.png"
             alt="people"
@@ -69,7 +69,7 @@ const World = () => (
             <h4 className="text-white mt-[8px] font-bold">Hawkins Labs</h4>
           </div>
         </div>
-        <div className="absolute top-[40%] left-[20%] w-[200px] h-[160px] p-[9px] rounded-[25px] bg-[#5d6680] lg:block hidden">
+        <div className="absolute top-[40%] left-[20%] w-[200px] h-[160px] p-[9px] rounded-[25px] bg-[#5d6680]">
           <img
             src="mapCard2.png"
             alt="people"
